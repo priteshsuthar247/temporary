@@ -3,7 +3,7 @@ def print_cube(n):
     print("Cube:",n * n * n)
 
 def print_square(n):
-    print("Square:",n*n*n)
+    print("Square:",n*n)
 
 
 t1 = threading.Thread(print_square(10))
